@@ -1,4 +1,4 @@
-# LOLDESIGN ShowMeTheCode Test
+# Enline Upload Files
 
 Este projeto trata-se de uma aplicação Web para upload de arquivos em formato de imagem, word e PDF.
 O usuário pode arrastar o arquivo ou selecionar o arquivo clicando na área de upload. Em seguida, ele pode acompanhar o processo de upload e receber a notificação visual se tiver algum erro. Após o upload feito, a tag EXCLUIR pode remover o elemento da lista.
@@ -7,9 +7,6 @@ O usuário pode arrastar o arquivo ou selecionar o arquivo clicando na área de 
 ## Tecnologias Utilizadas
 
  <img  height="40" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt="REACT" />
-
-  <img  height="40" width="60" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/640px-Typescript_logo_2020.svg.png" alt="Typescript" />
-
 
 ## Executando a aplicação
 
