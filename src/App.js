@@ -21,7 +21,6 @@ function App() {
       uploaded: true,
       url: file.url,
     }));
-    console.log(responseFiltered);
     setFiles(responseFiltered);
   }
   useEffect(() => {
@@ -36,7 +35,6 @@ function App() {
 
       return file;
     });
-    console.log(result, 'result');
     setFiles(result);
   };
 
@@ -90,7 +88,6 @@ function App() {
 
     }));
     const newArray = files.concat(filesUploaded);
-    console.log(newArray);
 
     filesUploaded.forEach((file) => sendUpload(file, newArray));
   };

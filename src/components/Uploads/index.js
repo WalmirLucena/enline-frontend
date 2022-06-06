@@ -34,7 +34,7 @@ function Upload(props) {
       <DropContainer
         {...getRootProps({ isFocused, isDragAccept, isDragReject })}
       >
-        <input {...getInputProps()} />
+        <input data-testid="input-file" {...getInputProps()} />
         {renderMessage(isDragAccept, isDragReject)}
       </DropContainer>
 

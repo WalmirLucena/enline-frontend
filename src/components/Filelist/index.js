@@ -9,7 +9,7 @@ function FileList({ files, handleDelete }) {
   return (
     <Container>
       { files.map((file) => (
-        <li key={file.id}>
+        <li key={file.id} data-testid="file-list">
           <FileInfo>
             <Preview src={file.preview} />
             <div>
